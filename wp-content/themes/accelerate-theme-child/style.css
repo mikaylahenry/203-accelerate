@@ -90,3 +90,25 @@ div.case-study-images img {
 	width: 100%;
 	height: auto;
 }
+
+menu {
+  list-style: none;
+}
+
+.social-media-menu {
+  list-style: none;
+}
+
+.social-media-menu li {
+  background: black;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  font: white;
+  text-align: center;
+  align-items: center;
+  padding-top: 5px;
+  float: left;
+  margin: 10px;
+
+}
