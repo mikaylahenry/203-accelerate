@@ -10,8 +10,10 @@ Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibi
 Text Domain:  accelerate-theme-child
 */
 
-.home-page {
+.hero-content {
     background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    background-size: 100% 70%;
+    margin-top: -100px;
 }
 
 #masthead {
@@ -20,4 +22,71 @@ Text Domain:  accelerate-theme-child
 
 .button {
 	background: #45ac9d;
+}
+
+.blog-post {
+	width: 50%;
+	float: left;
+	margin-bottom: 2em;
+}
+
+.blog-post h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 .5em;
+}
+
+.blog-post h3 {
+	font-size: 1.5em;
+}
+
+.read-more-link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+/*Case Studies*/
+aside.case-study-sidebar {
+  float: left;
+  width: 300px;
+  text-align: left;
+}
+
+div.case-study-images {
+  float: left;
+  width: 600px;
+}
+
+.site-content {
+  width: 100%;
+  text-align: center;
+  margin-top: -100px;
+}
+
+.site-content li {
+  width: 30%;
+  float: left;
+  padding: 10px;
+  list-style: none;
+  margin-left: 20px;
+}
+
+.recent-posts {
+  width: 50%;
+  float: left;
+  clear: both;
+  margin: 100px 250px;
+
+}
+
+#primary {
+  margin-top: 100px;
+}
+
+div.case-study-images img {
+	width: 100%;
+	height: auto;
 }
